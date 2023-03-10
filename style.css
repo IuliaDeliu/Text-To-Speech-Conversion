@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+section {
+	width: 100%;
+	height: 100vh;
+	background-color: blueviolet;
+}
+
+.wrapper {
+	text-align: center;
+	padding: 5rem 0;
+}
+
+.text_elem {
+	display: block;
+	border: none;
+	outline: none;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	width: 40%;
+	margin: auto;
+	margin-bottom: 2rem;
+}
+
+.btn {
+	border: none;
+	outline: none;
+	background: #fff;
+	color: #000;
+	border-radius: 0.3rem;
+	padding: 0.3rem 1rem;
+	cursor: pointer;
+	transition: 2s ease;
+}
+
+.btn:hover {
+	background-color: aqua;
+}
